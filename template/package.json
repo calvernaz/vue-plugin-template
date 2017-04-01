@@ -3,16 +3,16 @@
   "version": "{{ version }}",
   "description": "{{ version }}",
   "author": "{{ author }}",
-{{#unless_eq githubAccount ""}}
-"repository": {
-"type": "git",
-"url": "git+https://github.com/{{ githubAccount }}/{{ name }}.git"
-},
-"bugs": {
-"url": "https://github.com/{{ githubAccount }}/{{ name }}/issues"
-},
-"homepage": "https://github.com/{{ githubAccount }}/{{ name }}#readme",
-{{/unless_eq}},
+  {{#unless_eq githubAccount ""}}
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/{{ githubAccount }}/{{ name }}.git"
+  },
+  "bugs": {
+  "url": "https://github.com/{{ githubAccount }}/{{ name }}/issues"
+  },
+  "homepage": "https://github.com/{{ githubAccount }}/{{ name }}#readme"
+  {{/unless_eq}},
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
