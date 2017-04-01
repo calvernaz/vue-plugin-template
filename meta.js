@@ -2,6 +2,7 @@ const os = require('os')
 const githubAccountDefault = os.userInfo().username
 
 module.exports = {
+  schema: {},
   prompts: {
     name: {
       type: 'string',
