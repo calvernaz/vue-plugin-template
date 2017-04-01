@@ -9,5 +9,10 @@
   "license": "MIT",
   "devDependencies": {
     "vue-cli": "^2.8.1"
-  }
+  },
+  "keywords": [
+    "vue",
+    "template",
+    "plugin"
+  ]
 }
