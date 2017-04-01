@@ -1,0 +1,11 @@
+
+{
+  "name": "vue-plugin-template",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Template for vue plugins",
+  "main": "meta.js",
+  "repository": "git@github.com:calvernaz/vue-plugin-template.git",
+  "author": "Cesar Alvernaz <cesar.alvernaz@gmail.com>",
+  "license": "MIT"
+}
