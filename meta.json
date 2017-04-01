@@ -16,6 +16,10 @@
       "required": false,
       "message": "Initial version",
       "default": "0.0.0"
+    },
+    "author": {
+      "type": "string",
+      "label": "Author"
     }
   },
   "completeMessage": "To get started:\n\n  cd {{destDirName}}\n  npm install\n  npm run start\n\n"
