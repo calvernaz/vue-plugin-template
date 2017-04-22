@@ -1,6 +1,5 @@
 {
   "name": "vue-plugin-template",
-  "private": true,
   "version": "1.0.0",
   "description": "Template for vue plugins",
   "main": "meta.js",
